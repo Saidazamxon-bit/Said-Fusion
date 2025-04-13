@@ -1,0 +1,525 @@
+body{
+    background: #111827;
+}
+
+.box{
+    width: 1000px;
+    margin: auto;
+}
+
+
+.rasm-uchun img{
+    width: 400px;
+    height: 600px;
+    border-radius: 45%;
+    border: 2px red double;
+}
+
+
+.text-uchun{
+    width: 600px;
+    height: 600px;
+    /* border: 2px red solid; */
+}
+
+.rasm-uchun {
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.hidden a:hover{
+    color: red;
+}
+
+#n-t{
+    color: red;
+}
+
+.malumotim{
+    color: white;
+    font-size: 13px;
+
+    margin-left: 72px;
+}
+
+.ozim-haqimda{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 120px;
+    margin-left: 70px;
+}
+
+
+.ozim-haqimda0{
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-weight: 400;
+    margin: 120px;
+    margin-left: 250px;
+    margin-top: -179px;
+}
+
+
+.ozim-haqimdan1{
+    color: white;
+    font-size: 37px;
+    font-weight: 380;
+    margin-top: -120px;
+   margin-left: 70px;
+}
+
+.ozim-haqimda1{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+   margin-top: 20px;
+    margin-left: 70px;
+}
+
+#changingText{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 245px;
+    margin-top: -45px;
+}
+
+.proyekr-text{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    font-family: monospace;
+}
+
+
+.max-w-sm{
+    width: 300px;
+    margin-top: 70px;
+}
+
+.proyektlar{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px red solid; */
+    flex-wrap: wrap;
+}
+
+#text-white{
+    width: 130px;
+    height: 40px;
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.tarmoq{
+    /* border: 2px red solid; */
+    width: 200px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+
+.text-white i{
+    font-size: 20px;
+    text-align: center;
+    margin-right: 6px;
+}
+
+@media (max-width: 768px) {
+
+    .box{
+        width: 350px;
+        /* border: 2px red solid; */
+    }
+
+    .rasm-uchun {
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 320px;
+    margin-left: 15px;
+}
+
+.rasm-uchun img{
+    width: 170px;
+    height: 250px;
+    border-radius: 45%;
+    /* border: 2px red double; */
+}
+
+.text-uchun{
+    width: 320px;
+    height: 250px;
+    /* border: 2px red solid; */
+}
+
+
+.malumotim{
+    color: white;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.ozim-haqimda{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 120px;
+    margin-left: 10px;
+    margin-top: 30px;
+    
+}
+
+
+.ozim-haqimda0{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-weight: 400;
+    margin: 120px;
+    margin-left: 145px;
+    margin-top: -165px;
+}
+
+
+.ozim-haqimdan1{
+    color: white;
+    font-size: 17px;
+    font-weight: 380;
+    margin-top: -110px;
+    margin-left: 10px;
+}
+
+.ozim-haqimda1{
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+   margin-top: 10px;
+    margin-left: 10px;
+}
+
+#changingText{
+    color: red;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 153px;
+    margin-top: -30px;
+}
+
+#text-white{
+    width: 70px;
+    height: 40px;
+    margin-top: 50px;
+    margin-right: 100px;
+    align-items: center;
+    margin-left: -82px;
+    font-size: 6px;
+}
+
+
+.tarmoq{
+    /* border: 2px red solid; */
+    width: 270px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.text-white i{
+    font-size: 20px;
+    margin-left: -10px;
+    margin-right: 4px;
+}
+
+.proyekr-text{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 170px;
+    font-family: monospace;
+}
+
+.max-w-sm{
+    width: 150px;
+    margin-top: 70px;
+}
+
+.proyektlar{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px red solid; */
+    flex-wrap: wrap;
+    margin-left: 0px;
+}
+
+
+.paski{
+    width: 100%;
+    height: 400px;
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    
+    border-radius: 20px 20px 0px 0px;
+    border-top: 1px solid red;
+border-right: none;
+border-left: none;
+border-bottom: none;
+    flex-wrap: wrap;
+    
+}
+
+.c1{
+    /* border: 2px red solid; */
+    width: 50px;
+    height: 200px;
+    margin-top: 150px;
+    display: block;
+    padding-left: -200px;
+
+ }
+
+ .c2{
+    /* border: 2px red solid; */
+    width: 80px;
+    height: 10px;
+    
+ }
+
+#username{
+    width: 240px;
+}
+#phone{
+    width: 240px;
+}
+
+.button{
+    margin-left: -100px;
+}
+
+
+ .container input{
+    width: 50px;
+  }
+
+.kel1{
+    font-size: 30px;
+    color: red;
+    font-family: cursive;
+    
+ }
+
+ .sel{
+    margin-left: -60px;
+ }
+
+ #regions{
+    width: 300px;
+ }
+
+
+ .box-past{
+    height: 100px;
+    /* border: 2px red solid; */
+    margin-top: 200px;
+ }
+
+}
+
+
+.paski{
+    width: 100%;
+    height: 400px;
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    margin-top: 70px;
+    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+    border-top: 1px solid red;
+border-right: none;
+border-left: none;
+border-bottom: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* From Uiverse.io by AmIt-DasIT */ 
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    position: relative;
+    color: white;
+    width: 200px;
+  }
+  
+  .container .label {
+    font-size: 15px;
+    padding-left: 10px;
+    position: absolute;
+    top: 13px;
+    transition: 0.3s;
+    pointer-events: none;
+  }
+  
+  .input {
+    width: 200px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0px 7px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    background-color: transparent;
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
+  }
+  
+  .input:focus {
+    border: 2px solid transparent;
+    color: #fff;
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4),
+    inset 3px 3px 10px rgba(0,0,0,1),
+    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+  }
+  
+  .container .input:valid ~ .label,
+  .container .input:focus ~ .label {
+    transition: 0.3s;
+    padding-left: 2px;
+    transform: translateY(-35px);
+  }
+  
+  .container .input:valid,
+  .container .input:focus {
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4),
+    inset 3px 3px 10px rgba(0,0,0,1),
+    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    position: relative;
+    color: white;
+ 
+    margin-top: 60px;
+  }
+  .container input{
+    width: 300px;
+  }
+
+
+/* From Uiverse.io by zanina-yassine */ 
+.button {
+    width: 80px;
+    height: 50px;
+    margin-left: 255px;
+    position: relative;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 12px 17px;
+    border: 0;
+    border-radius: 7px;
+    
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+    background: radial-gradient(
+      ellipse at bottom,
+      rgba(71, 81, 92, 1) 0%,
+      rgba(11, 21, 30, 1) 45%
+    );
+  
+    color: rgba(163, 163, 163, 0.66);
+  
+    transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+  
+  .button::before {
+    content: "";
+    width: 70%;
+    height: 1px;
+  
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+  
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    opacity: 0.2;
+  
+    transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+  
+  .button:hover {
+    color: rgb(255, 255, 255, 1);
+    transform: scale(1.1) translateY(-3px);
+  }
+  
+  .button:hover::before {
+    opacity: 1;
+  }
+  
+
+  .bb{
+    margin-top: -47px;
+  }
+
+  .sel{
+    
+    /* border: 2px red solid; */
+    width: 300px;
+    margin-top: -50px;
+  }
+
+ .dost{
+    color: red;
+    font-family: fantasy;
+    font-size: 50px;
+ }
+
+ .kel1{
+    margin-top: 50px;
+    font-size: 30px;
+    color: red;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 100px;
+ }
+ .c1{
+    /* border: 2px red solid; */
+    width: 500px;
+    
+ }
+
+ .c2{
+    /* border: 2px red solid; */
+    width: 500px;
+    
+ }
+
+ #bb{
+    background-color: red;
+ }
+
+ .box-past{
+    height: 100px;
+ }
