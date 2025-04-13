@@ -17,7 +17,7 @@ setInterval(() => {
 
 
 
-  function sendToTelegram() {
+  function sendToTelegram1() {
     var name = document.getElementById("username").value.trim();
     
     // Agar input bo‘sh bo‘lsa, xatolikni ko‘rsatamiz
@@ -52,7 +52,7 @@ setInterval(() => {
 
 
 
-  function sendToTelegram() {
+  function sendToTelegram2() {
     var phone = document.getElementById("phone").value.trim();
 
     if (!phone) {
@@ -81,7 +81,7 @@ setInterval(() => {
   }
 
 
-  function sendToTelegram() {
+  function sendToTelegram3() {
     var region = document.getElementById("regions").value;
 
     if (!region) {
